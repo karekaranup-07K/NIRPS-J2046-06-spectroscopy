@@ -21,20 +21,6 @@ This repository contains the complete analysis pipeline and derived results for 
 
 The analysis demonstrates the utility of NIR high-resolution spectroscopy for characterizing activity and kinematics in short-period low-mass binaries.
 
-NIRPS-EBLM-J2046-analysis/
-├── ADP.2025-07-31T08_21_26.491.fits     # ESO Phase 3 FITS file (large → download from archive)
-├── nirps_analysis.py                    # Main analysis script (loading, masking, RV, EW, plots)
-├── line_measurements_id.ecsv            # Table of detected lines, EWs, Gaussian fits, tentative IDs
-├── plots/                               # Generated figures (optional folder)
-│   ├── full_normalized_spectrum.png
-│   ├── hband_clean.png
-│   ├── ccf_hband_rv.png
-│   ├── line_1080nm.png
-│   ├── line_1094nm_pa_gamma.png
-│   └── search_tio_vo_1550_1700.png
-├── README.md                            # This file
-└── requirements.txt                     # Python dependencies
-
 ## Scientific background
 
 **EBLM J2046+06** is part of the Eclipsing Binary Low-Mass (EBLM) survey, which targets detached eclipsing binaries with very low-mass companions initially misclassified as transiting planets. The system provides a benchmark for testing stellar evolution models of fully convective M-dwarfs and tidal interaction effects in short-period binaries.
