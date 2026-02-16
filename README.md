@@ -1,0 +1,1 @@
+# NIRPS-J2046-06-spectroscopy
